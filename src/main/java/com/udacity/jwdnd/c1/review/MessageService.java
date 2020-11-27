@@ -1,7 +1,10 @@
 package com.udacity.jwdnd.c1.review;
 
+import org.springframework.stereotype.Service;
+
 import javax.annotation.PostConstruct;
 
+@Service
 public class MessageService {
     private String message;
 
